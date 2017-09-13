@@ -162,8 +162,7 @@
                 let self=this;
                  self.totalPhotos=[];
                 var url="http://39.108.149.106/api/lastest";
-                fetch(url,
-                {
+                fetch(url,{
                     mode:'cors',
                     method:'GET',
                     headers:{
